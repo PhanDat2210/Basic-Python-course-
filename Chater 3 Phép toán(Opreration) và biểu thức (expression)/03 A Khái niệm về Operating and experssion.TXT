@@ -1,0 +1,15 @@
+#Lý thuyết 03.A - Khái niệm về phép toán và biểu thức
+#Toán tử/Phép toán (Operator) là 1 ký hiệu/câu lệnh cho phép tính toán gì đó dựa trên giá trị của các biến để tính ra được 1 kết quả nào đó. Ví dụ: Dấu + là phép cộng 2 số
+#Trong 1 phép toán cần có sự tham gia của các biến, hoặc giá trị, và các thành phần này được gọi chung là toán hạng (Operand). Ví dụ: Phép cộng cần có 2 toán hạng tham gia
+#Sự kết hợp giữa toán tử và toán hạng được gọi là biểu thức (expression). Ví dụ: x + y là 1 biểu thức gồm toán tử + và 2 toán hạng x,y
+#1 phép toán có 5 đặc điểm cần lưu ý:
+#+ Biểu thị của phép toán
+#+ Số toán hạng tham gia
+#+ Thứ tự thực hiện
+#+ Giá trị trả về
+#1) biểu diễn : kí hiệu (symbol) , keyword , function , operator
+#2) số toán hạng tham gia : nhiều số toán hạng thamgia
+#3) Độ ưu tiên (precdent) : nhiều độ ưu tiên (precdent) (expr): tăng độ ưu tiên
+#4) thứ tự thực hiện : nhiều thứ tự thực hiện(associative) (expr): tăng thứ tự thực hiện
+#5) giá trị trả về : nhiều giá trị trả về (expr): tăng giá trị trả về
+#6) 5 đặc điểm cần lưu ý: 5 đặc điểm cần lưu ý

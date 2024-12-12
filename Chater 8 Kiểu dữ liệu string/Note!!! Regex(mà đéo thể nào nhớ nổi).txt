@@ -1,0 +1,65 @@
+Regular Expression (Regex) là một công cụ mạnh mẽ dùng để tìm kiếm và xử lý chuỗi dựa trên các mẫu. Regex hỗ trợ cú pháp đặc biệt để khớp (match) các ký tự cụ thể hoặc các mẫu ký tự trong văn bản.
+
+Dưới đây là cú pháp cơ bản của Regex và cách khớp đúng các ký tự:
+
+1. Cú pháp cơ bản trong Regex
+Ký tự thông thường:
+
+Các ký tự như a, b, c, 1, 2, 3 khớp trực tiếp với chính chúng.
+Ví dụ: Regex "cat" sẽ khớp với chuỗi "cat".
+Ký tự đặc biệt:
+
+Một số ký tự có ý nghĩa đặc biệt trong Regex, bao gồm: ., ^, $, *, +, ?, {}, [], (), |, \. Để khớp với các ký tự này, bạn phải sử dụng dấu gạch chéo ngược (\) trước chúng.
+Ví dụ: Để khớp với dấu chấm (.), bạn cần viết \..
+2. Các nhóm ký tự đặc biệt
+.: Khớp với bất kỳ ký tự nào ngoại trừ ký tự xuống dòng (\n).
+
+Ví dụ: Regex "c.t" sẽ khớp với "cat", "cot", "cut", nhưng không khớp với "ct".
+[]: Khớp với bất kỳ ký tự nào trong ngoặc vuông.
+
+Ví dụ: [abc] khớp với "a", "b", hoặc "c".
+[a-z]: Khớp với bất kỳ ký tự chữ cái thường nào từ a đến z.
+^: Khớp với bắt đầu chuỗi.
+
+Ví dụ: ^abc sẽ khớp với "abc" chỉ nếu nó ở đầu chuỗi.
+$: Khớp với kết thúc chuỗi.
+
+Ví dụ: abc$ sẽ khớp với "abc" chỉ nếu nó ở cuối chuỗi.
+\d: Khớp với bất kỳ chữ số nào (0-9).
+
+Ví dụ: \d{3} sẽ khớp với chuỗi có 3 chữ số, như "123".
+\w: Khớp với bất kỳ ký tự chữ hoặc số nào, bao gồm dấu gạch dưới (_).
+
+Ví dụ: \w+ sẽ khớp với bất kỳ chuỗi từ ký tự chữ hoặc số nào.
+\s: Khớp với khoảng trắng, tab, hoặc ký tự xuống dòng.
+
+Ví dụ: \s+ sẽ khớp với một hoặc nhiều khoảng trắng.
+|: Toán tử "hoặc" (OR).
+
+Ví dụ: a|b sẽ khớp với ký tự "a" hoặc "b".
+3. Các lượng tử (Quantifiers)
+*: Khớp với 0 hoặc nhiều lần lặp lại của ký tự trước đó.
+
+Ví dụ: a* khớp với "a", "aa", hoặc chuỗi rỗng "".
++: Khớp với 1 hoặc nhiều lần lặp lại của ký tự trước đó.
+
+Ví dụ: a+ khớp với "a", "aa", nhưng không khớp với chuỗi rỗng "".
+?: Khớp với 0 hoặc 1 lần lặp lại của ký tự trước đó.
+
+Ví dụ: colou?r sẽ khớp với "color" hoặc "colour".
+{n}: Khớp với chính xác n lần lặp lại của ký tự trước đó.
+
+Ví dụ: \d{3} khớp với chuỗi có 3 chữ số.
+{n,m}: Khớp từ n đến m lần lặp lại.
+
+Ví dụ: \d{2,4} khớp với chuỗi từ 2 đến 4 chữ số.
+4. Các nhóm và tìm kiếm không tham lam
+(): Được sử dụng để nhóm các phần của biểu thức. Bạn có thể dùng nhóm để áp dụng lượng tử hoặc tham chiếu lại.
+
+Ví dụ: (ab)+ sẽ khớp với "ab", "abab", v.v.
+? (non-greedy): Tìm kiếm không tham lam, tức là khớp với ít ký tự nhất có thể.
+
+Ví dụ: .*? sẽ khớp với chuỗi ngắn nhất có thể thay vì dài nhất.
+5. Ký tự thoát (Escape character)
+Để khớp chính xác với một ký tự đặc biệt như . hoặc *, bạn cần sử dụng dấu gạch chéo ngược (\).
+Ví dụ: \. khớp với dấu chấm, thay vì bất kỳ ký tự nào.

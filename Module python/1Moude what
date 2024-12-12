@@ -1,0 +1,7 @@
+import human import Person as Ps
+import math
+import re
+print(max_age)
+print(bmi(60,1.65))
+vu = Ps('Vu Nguyen', 30)
+vu.hello()

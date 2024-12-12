@@ -1,0 +1,7 @@
+# Phép gán (dấu = ) là 1 phép toán 2 toán hạng thể hiện việc láy dữ liệu từ toán hạng bên phải
+# và gán sang toán hạng bên trái.
+# 1) biểu diễn : kí hiệu =
+# 2) số toán hạng tham gia
+# 3) độ ưu tiên (precdent): lowest
+# 4) thứ tự thực hiện(Associative): left -> reight
+# 5) giá trị trả về: none
