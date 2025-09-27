@@ -15,3 +15,15 @@ def format_to_two_decimal(num):
 print("1)", format_to_two_decimal(result1))
 print("2)", format_to_two_decimal(result2))
 print("3)", format_to_two_decimal(result3))
+
+# import math
+
+# a,b = map (float,input ("nhap a,b:").split(","))
+# c = (a*b) + (a/b)
+# result = math.floor (c*100)/100 # 0 làm tròn 6.66
+# print (f"answer: {result}")
+# import math
+
+# a,b = map (float,input ("nhap a,b:").split(","))
+# c = (a*b) + (a/b)
+# print (f"answer: {round(c,2)}") # làm tròn 6.67
