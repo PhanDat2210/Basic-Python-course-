@@ -27,3 +27,8 @@ print("3)", format_to_two_decimal(result3))
 # a,b = map (float,input ("nhap a,b:").split(","))
 # c = (a*b) + (a/b)
 # print (f"answer: {round(c,2)}") # làm tròn 6.67
+# import math
+
+# x,y = map (float,input("Enter x ,y :").split(","))
+# z = math.sqrt(math.pow(3*x+2*y,2)*math.pow(5*x+1,3))
+# print (f"Answer z: {round(z,2)}")
