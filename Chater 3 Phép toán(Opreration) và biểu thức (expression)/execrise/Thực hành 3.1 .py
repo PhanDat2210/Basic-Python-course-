@@ -32,3 +32,9 @@ print("3)", format_to_two_decimal(result3))
 # x,y = map (float,input("Enter x ,y :").split(","))
 # z = math.sqrt(math.pow(3*x+2*y,2)*math.pow(5*x+1,3))
 # print (f"Answer z: {round(z,2)}")
+# import math
+
+# R = float(input("Nhap ban kinh:"))
+# C = 2 * math.pi * R
+# S = math.pi * math.pow(R,2)
+# print (f"Chu vi hinh tron: {round((math.floor(C*100)/100),1)}, Dien tich hinh tron: {round(S,1)}")
